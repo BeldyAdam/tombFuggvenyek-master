@@ -4,3 +4,11 @@ export const ADATLISTA = [
     {nev: "Hektor", fajta: "Bullmasztiff", kor: "4"},
     {nev: "Dezső", fajta: "keverék", kor: "2"}
 ];
+
+
+export const kulcsLista ={
+    kep: "fotó",
+    nev: "név",
+    kor: "kor",
+    fajta: "fajta",
+}

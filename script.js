@@ -1,7 +1,7 @@
 import { ADATLISTA } from "./adat.js"
-
 $(function(){
-    tablazat();
+    tablazat(ADATLISTA);
+    megjelenit(tablazat, ADATLISTA);
 })
 
 function tablazat(lista){
@@ -30,4 +30,8 @@ function tablazat(lista){
     txt += "</table>";
     txt += "</div>";
     return txt;
+}
+
+function megjelenit(tablazat, adat){
+    adat.innerHTML = tablazat;
 }
